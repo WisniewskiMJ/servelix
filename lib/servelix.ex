@@ -1,18 +1,7 @@
 defmodule Servelix do
-  @moduledoc """
-  Documentation for `Servelix`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Servelix.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def hello(name) do
+    "Hi #{name}"
   end
 end
+
+# IO.puts Servelix.hello("Elixir")
